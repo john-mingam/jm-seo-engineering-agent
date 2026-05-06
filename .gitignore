@@ -1,0 +1,5 @@
+logs/*
+!logs/index.php
+reports/*
+!reports/index.php
+.DS_Store
