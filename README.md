@@ -1,281 +1,305 @@
 <div align="center">
 
-# JM SEO Engineering Agent
+# 🤖 JM SEO Engineering Agent
 
-### WordPress SEO Engineering Monitoring Plugin
-
-Production-ready SEO monitoring for WordPress.  
-Technical SEO • Semantic SEO • Entity Signals • Structure / Flow / Trust
+### Technical SEO Monitoring & Semantic Observability for WordPress
 
 <br>
 
-<img src="./assets/banner.jpg" alt="JM SEO Engineering Agent Banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:000000&height=220&section=header&text=JM%20SEO%20Engineering%20Agent&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" />
+
+<br>
+
+<p align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWQ0Y2N6a3F2a2d3eG5jM2xjNWl4OHl2N2NjbXd2YjR2eWh5M3E5biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/13HgwGsXF0aiGY/giphy.gif" width="100%" />
+
+</p>
+
+[![WordPress](https://img.shields.io/badge/WordPress-6.0+-000000?style=for-the-badge&logo=wordpress)](https://wordpress.org)
+[![PHP](https://img.shields.io/badge/PHP-8.0+-000000?style=for-the-badge&logo=php)](https://php.net)
+[![License](https://img.shields.io/badge/License-GPLv2-000000?style=for-the-badge)](https://www.gnu.org/licenses/gpl-2.0.html)
+[![Status](https://img.shields.io/badge/Status-Active-000000?style=for-the-badge)](#)
+[![SEO Engineering](https://img.shields.io/badge/SEO-Engineering-000000?style=for-the-badge)](#)
 
 <br><br>
 
+
 <p align="center">
-  <img src="https://img.shields.io/badge/WordPress-6.0+-black?style=for-the-badge">
-  <img src="https://img.shields.io/badge/PHP-8.0+-black?style=for-the-badge">
-  <img src="https://img.shields.io/badge/License-GPLv2-black?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Active-black?style=for-the-badge">
+	<b>WordPress SEO monitoring plugin built for technical consistency, entity signals, and semantic trust.</b><br>
+	Beyond metadata: crawler observability, structured data validation, SFT scoring, and SEO engineering workflows.
 </p>
 
-<br>
-
-<img src="./assets/demo.gif" alt="Plugin Demo" width="100%" />
+Technical SEO • Entity SEO • Semantic Signals • Structured Data
 
 </div>
 
----
+## Why JM SEO Engineering Agent
 
-# Why JM SEO Engineering Agent
+Classic SEO plugins are mainly built for content optimization.
 
-Traditional SEO plugins focus mainly on metadata.
+**JM SEO Engineering Agent** is built for technical SEO monitoring and semantic observability.
 
-JM SEO Engineering Agent focuses on:
+It helps detect, structure, and report the technical and semantic signals that influence modern search visibility.
 
-- Technical SEO monitoring
-- Semantic and entity SEO signals
-- Structure consistency
-- Internal linking quality
-- Crawl accessibility
-- Trust signals
-- Long-term SEO observability
-
-This plugin is designed for agencies, SEO consultants, technical teams and WordPress administrators who need real monitoring instead of simple metadata generation.
+- Technical SEO monitoring for WordPress.
+- Structured data and JSON-LD validation.
+- Entity signal detection and semantic consistency checks.
+- Internal linking, crawl accessibility, and indexation monitoring.
+- SFT scoring based on Structure, Flow, and Trust.
+- Exportable reports for audits, clients, and historical tracking.
 
 ---
 
-# Core Features
+## Before / After: Classic SEO vs SEO Engineering
 
-<table>
-<tr>
-<td width="50%">
+| Approach | Classic SEO Plugin | JM SEO Engineering Agent |
+|---|---|---|
+| Main focus | Metadata and content hints | Technical consistency and semantic trust |
+| Analysis unit | Page or post | Site structure, entities, signals, and flow |
+| Structured data | Basic schema output | JSON-LD validation and entity coherence |
+| Internal linking | Simple recommendations | Crawl flow and link circulation monitoring |
+| Trust signals | Mostly external | Author, organization, sameAs, and entity consistency |
+| Reporting | Content score | Technical, semantic, and SFT reports |
 
-## Technical SEO
+Practical impact:
 
-- Meta title analysis
-- Meta description validation
-- H1 structure detection
-- Canonical validation
-- Robots/noindex analysis
-- Sitemap monitoring
-- Broken links detection
-- Crawl depth analysis
-- Internal linking monitoring
-
-</td>
-
-<td width="50%">
-
-## Semantic & Entity SEO
-
-- JSON-LD detection
-- Schema.org validation
-- Breadcrumb signals
-- Organization signals
-- Author signals
-- sameAs verification
-- Entity structure analysis
-- Structured data consistency
-
-</td>
-</tr>
-</table>
+- less ambiguity around the main entity,
+- stronger technical consistency,
+- better structured data governance,
+- clearer SEO priorities,
+- stronger readiness for AI search and semantic search systems.
 
 ---
 
-# Structure / Flow / Trust
+## Identity
 
-JM SEO Engineering Agent uses the proprietary **SFT methodology**.
-
-| Pillar | Purpose |
-|---|---|
-| Structure | Technical clarity and semantic consistency |
-| Flow | Crawlability and internal SEO circulation |
-| Trust | Credibility and entity trust signals |
-
----
-
-# Before / After
-
-| Classic SEO Plugins | JM SEO Engineering Agent |
-|---|---|
-| Focus on metadata | Focus on SEO systems |
-| Basic SEO fields | Technical + semantic monitoring |
-| Manual verification | Continuous scanning |
-| Limited visibility | Historical monitoring |
-| Generic optimization | SEO Engineering approach |
+- Name: `jm-seo-engineering-agent`
+- Type: WordPress plugin
+- Author: `John Mingam`
+- Methodology: `SFT`
+- Pillars: `Structure`, `Flow`, `Trust`
+- License: `GPLv2 or later`
+- Runtime: `WordPress 6.0+`, `PHP 8.0+`
 
 ---
 
-# Dashboard
+## SFT Framework
 
-<div align="center">
+The plugin is based on the **SFT methodology**.
 
-<img src="./assets/dashboard.jpg" width="100%" alt="Dashboard Screenshot" />
-
-</div>
-
-The dashboard provides:
-
-- Global SEO monitoring
-- Crawl statistics
-- SFT scoring
-- Historical scan logs
-- Technical issue tracking
-- Exportable reports
+| Pillar | Meaning | What the plugin checks |
+|---|---|---|
+| Structure | Technical and semantic clarity | HTML structure, headings, metadata, JSON-LD, Schema.org |
+| Flow | Crawlability and SEO circulation | Internal links, broken links, redirects, crawl depth |
+| Trust | Entity confidence and credibility | Organization, Author, sameAs, entity consistency |
 
 ---
 
-# Reports & Monitoring
+## Core Monitoring Systems
 
-Generate:
+### Technical Monitoring
 
-- CSV reports
-- JSON exports
-- PDF reports
-- Scheduled email reports
+- Sitemap analysis.
+- robots.txt validation.
+- Canonical verification.
+- Redirect monitoring.
+- Crawl accessibility.
+- Broken internal link detection.
+- HTTP status verification.
+- H1 to H6 hierarchy analysis.
+- Indexation consistency checks.
+- Technical anomaly logging.
 
-Track:
+### Semantic Engineering
 
-- SEO score evolution
-- Crawl anomalies
-- Structured data changes
-- Internal link health
-- Technical regressions
+- JSON-LD validation.
+- Schema.org analysis.
+- Entity signal monitoring.
+- Author verification.
+- Organization consistency.
+- sameAs tracking.
+- Semantic prominence analysis.
+- Structured data integrity.
+- Knowledge Graph readiness.
 
 ---
 
-# Plugin Architecture
+## Features
+
+### Technical SEO Analysis
+
+Continuous monitoring of technical SEO signals and structural integrity.
+
+### Structured Data Validation
+
+Automatic detection and validation of:
+
+- JSON-LD.
+- Schema.org markup.
+- Entity structures.
+- Invalid semantic signals.
+- Missing or inconsistent structured data.
+
+### Entity SEO Monitoring
+
+Built for modern search systems and AI visibility.
+
+Supports:
+
+- entity reinforcement,
+- semantic consistency,
+- brand clarity,
+- author authority,
+- organization trust signals.
+
+### Reporting System
+
+Export reports in:
+
+- CSV,
+- JSON,
+- PDF.
+
+Ideal for:
+
+- SEO audits,
+- client reporting,
+- technical monitoring,
+- historical analysis.
+
+---
+
+## Quick Start
+
+### 1. Clone the repository
 
 ```bash
-jm-seo-engineering-agent/
-├── admin/
-├── assets/
-├── includes/
-│   ├── class-crawler.php
-│   ├── class-scanner.php
-│   ├── class-scorer.php
-│   ├── class-reporter.php
-│   ├── class-rest-api.php
-│   └── class-history.php
-├── languages/
-├── templates/
-├── uninstall.php
-└── jm-seo-engineering-agent.php
-```
-
----
-
-# Installation
-
-## WordPress Admin
-
-1. Download the ZIP
-2. Upload the plugin
-3. Activate it
-4. Launch your first scan
-
----
-
-## Manual Installation
-
-```bash
-cd wp-content/plugins/
-
 git clone https://github.com/john-mingam/jm-seo-engineering-agent.git
 ```
 
-Activate the plugin from WordPress admin.
+### 2. Move it to WordPress plugins
+
+```bash
+mv jm-seo-engineering-agent /wp-content/plugins/
+```
+
+### 3. Activate the plugin
+
+Go to:
+
+```text
+WordPress Admin > Plugins > JM SEO Engineering Agent > Activate
+```
+
+### 4. Launch your first scan
+
+Open the plugin dashboard and start a global scan.
 
 ---
 
-# Requirements
+## WordPress Installation
 
-| Requirement | Version |
+### Manual installation
+
+1. Download the plugin ZIP.
+2. Upload it in `Plugins > Add New > Upload Plugin`.
+3. Activate the plugin.
+4. Open the plugin dashboard.
+5. Run your first technical and semantic scan.
+
+### Developer installation
+
+```bash
+cd wp-content/plugins
+git clone https://github.com/john-mingam/jm-seo-engineering-agent.git
+```
+
+---
+
+## Architecture Snapshot
+
+```text
+jm-seo-engineering-agent/
+	admin/
+		controllers/
+		views/
+		settings/
+	assets/
+		css/
+		js/
+		images/
+	includes/
+		class-crawler.php
+		class-scanner.php
+		class-scorer.php
+		class-reporter.php
+		class-schema-validator.php
+		class-link-monitor.php
+		class-entity-engine.php
+	templates/
+	languages/
+	logs/
+	jm-seo-engineering-agent.php
+```
+
+---
+
+## Reporting Outputs
+
+| Format | Use case |
 |---|---|
-| WordPress | 6.0+ |
-| PHP | 8.0+ |
-| MySQL | 5.7+ |
+| CSV | Spreadsheet audits and client exports |
+| JSON | Developer workflows and integrations |
+| PDF | Client-ready technical reporting |
 
 ---
 
-# Roadmap
+## Roadmap
 
-## Current Version
+### V2
 
-- Technical SEO monitoring
-- Entity signal analysis
-- SFT scoring
-- Crawl system
-- Historical monitoring
-- Reporting system
+- Technical monitoring.
+- SFT scoring.
+- Structured data validation.
+- Entity signal analysis.
+- Reporting engine.
 
-## Future Versions
+### V3
 
-- AI-assisted SEO analysis
-- Advanced entity mapping
-- Automated recommendations
-- Rachel AI integration
-- Astronaut ecosystem integration
-- Multi-site monitoring
+- Rachel AI integration.
+- Automated SEO recommendations.
+- AI-powered issue prioritization.
+- Predictive SEO monitoring.
 
----
+### V4
 
-# Screenshots
-
-<div align="center">
-
-<img src="./assets/screenshot-1.jpg" width="100%" />
-
-<br><br>
-
-<img src="./assets/screenshot-2.jpg" width="100%" />
-
-<br><br>
-
-<img src="./assets/screenshot-3.jpg" width="100%" />
-
-</div>
+- Astronaut SAAS ecosystem integration.
+-  Entity Scoring.
+- Semantic graph analysis.
+- Cross-site entity mapping.
 
 ---
 
-# Philosophy
+## Notes
 
-Search engines no longer only rank pages.
-
-They evaluate:
-
-- entities,
-- trust,
-- semantic clarity,
-- technical consistency,
-- structured understanding.
-
-JM SEO Engineering Agent is built around this evolution.
+- This plugin does not replace editorial SEO strategy.
+- It focuses on technical and semantic SEO observability.
+- It is designed to help identify issues, prioritize fixes, and strengthen entity trust signals.
+- AI features are planned for later versions and are not required for the V1 technical monitoring workflow.
 
 ---
 
-# Author
+## License
 
-## John Mingam
-
-SEO Engineer • Entity SEO Consultant • SEO Engineering
-
-- Website: https://johnmingam.com
-- LinkedIn: https://linkedin.com/in/johnmingam
+GPLv2 or later.
 
 ---
 
-# License
+## Author
 
-GPL v2 or later
+John Mingam
 
----
+SEO Engineer • Entity SEO Consultant • Technical Strategist
 
-<div align="center">
-
-### Built for modern SEO Engineering
-
-</div>
+Website: https://johnmingam.com
+Linkedin : https://linkedin.com/in/johnmingam
